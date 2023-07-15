@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+@import "./assets/styles/mat_theme";
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+@import './assets/styles/font';
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.mat-icon {
+  &.large-icon {
+    width: 600px;
+    height: 500px;
+    @media (max-width: 599px){
+        width: 300px;
+        height: 300px;
+    }
+  }
+}
