@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "wheater-today": {
+      "hosting": {
+        "wheater-today": [
+          "wheater-today"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "wheater-today"
+  }
+}
